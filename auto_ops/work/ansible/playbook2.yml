@@ -1,0 +1,34 @@
+---
+   
+ - name: 更换为国内镜像源
+   hosts: servers
+   
+   tasks:
+     - name: 更新apt镜像源
+       block:
+         - name: 复制sources.list到debian和ubuntu
+           copy:
+             src: /etc/apt/sources.list
+             dest: /etc/apt/sources.list
+             mode: 0644
+             owner: docker
+             group: docker
+             
+         - name: 更新apt源
+           command: apt update
+       when:
+         - ansible_pkg_mgr == "apt"
+              
+     - name: 更新yum镜像源
+       block:
+         - name: 复制CentOS-Base.repo到centos
+           copy:
+             src: ./CentOS-Base.repo
+             dest: /etc/yum.repos.d/CentOS-Base.repo
+             mode: 644
+             owner: docker
+             group: docker
+         - name: 更新yum源
+           command: yum update
+       when:
+         - ansible_pkg_mgr == "yum"

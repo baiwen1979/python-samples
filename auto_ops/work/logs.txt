@@ -1,0 +1,289 @@
+2020-07-17 14:39:09 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:39:09 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:39:09 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:40:38 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:40:54 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:40:54 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:40:54 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:40:54 base.py[line:166]INFO Scheduler started
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:39 UTC)" was missed by 0:00:15.109335
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:13.110588
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:11.111444
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:09.112048
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:07.112909
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:05.113632
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:03.114456
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:01.116245
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:14.337025
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:09.338082
+2020-07-17 14:40:54 base.py[line:120]WARNING Run time of job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:40:55 UTC)" was missed by 0:00:04.338914
+2020-07-17 14:40:55 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:41:00 UTC)" (scheduled at 2020-07-17 14:40:55+00:00)
+2020-07-17 14:40:55 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:41:00 UTC)" executed successfully
+2020-07-17 14:40:55 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:57 UTC)" (scheduled at 2020-07-17 14:40:55.194933+00:00)
+2020-07-17 14:40:55 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:57 UTC)" executed successfully
+2020-07-17 14:40:57 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:59 UTC)" (scheduled at 2020-07-17 14:40:57.194933+00:00)
+2020-07-17 14:40:57 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:40:59 UTC)" executed successfully
+2020-07-17 14:40:59 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:41:01 UTC)" (scheduled at 2020-07-17 14:40:59.194933+00:00)
+2020-07-17 14:40:59 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:41:01 UTC)" executed successfully
+2020-07-17 14:41:00 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:41:05 UTC)" (scheduled at 2020-07-17 14:41:00+00:00)
+2020-07-17 14:41:00 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:41:05 UTC)" executed successfully
+2020-07-17 14:41:01 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:41:03 UTC)" (scheduled at 2020-07-17 14:41:01.194933+00:00)
+2020-07-17 14:41:01 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:41:03 UTC)" executed successfully
+2020-07-17 14:41:03 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:41:05 UTC)" (scheduled at 2020-07-17 14:41:03.194933+00:00)
+2020-07-17 14:41:03 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:41:05 UTC)" executed successfully
+2020-07-17 14:47:54 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:47:54 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:47:54 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:48:19 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:48:19 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:48:19 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:49:10 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:49:10 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:49:10 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:49:14 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:49:17 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:49:17 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:49:17 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:49:17 base.py[line:881]INFO Added job "err_job" to job store "default"
+2020-07-17 14:49:17 base.py[line:166]INFO Scheduler started
+2020-07-17 14:49:18 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:18 UTC)" (scheduled at 2020-07-17 14:49:18.321824+00:00)
+2020-07-17 14:49:18 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:20 UTC)" executed successfully
+2020-07-17 14:49:20 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:25 UTC)" (scheduled at 2020-07-17 14:49:20+00:00)
+2020-07-17 14:49:20 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:25 UTC)" executed successfully
+2020-07-17 14:49:20 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:22 UTC)" (scheduled at 2020-07-17 14:49:20.321824+00:00)
+2020-07-17 14:49:20 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:22 UTC)" executed successfully
+2020-07-17 14:49:22 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:24 UTC)" (scheduled at 2020-07-17 14:49:22.321824+00:00)
+2020-07-17 14:49:22 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:24 UTC)" executed successfully
+2020-07-17 14:49:24 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:26 UTC)" (scheduled at 2020-07-17 14:49:24.321824+00:00)
+2020-07-17 14:49:24 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:26 UTC)" executed successfully
+2020-07-17 14:49:25 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:30 UTC)" (scheduled at 2020-07-17 14:49:25+00:00)
+2020-07-17 14:49:25 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:30 UTC)" executed successfully
+2020-07-17 14:49:26 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:28 UTC)" (scheduled at 2020-07-17 14:49:26.321824+00:00)
+2020-07-17 14:49:26 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:28 UTC)" executed successfully
+2020-07-17 14:49:28 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:30 UTC)" (scheduled at 2020-07-17 14:49:28.321824+00:00)
+2020-07-17 14:49:28 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:30 UTC)" executed successfully
+2020-07-17 14:49:29 base.py[line:123]INFO Running job "err_job (trigger: date[2020-07-17 14:49:14 UTC], next run at: 2020-07-17 14:49:29 UTC)" (scheduled at 2020-07-17 14:49:29.079604+00:00)
+2020-07-17 14:49:29 base.py[line:131]ERROR Job "err_job (trigger: date[2020-07-17 14:49:14 UTC], next run at: 2020-07-17 14:49:29 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-22-4b74fabf4ee6>", line 7, in err_job
+    print(1/0) # 除零错误
+ZeroDivisionError: division by zero
+2020-07-17 14:49:29 base.py[line:627]INFO Removed job error_task
+2020-07-17 14:49:30 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:35 UTC)" (scheduled at 2020-07-17 14:49:30+00:00)
+2020-07-17 14:49:30 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:35 UTC)" executed successfully
+2020-07-17 14:49:30 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:32 UTC)" (scheduled at 2020-07-17 14:49:30.321824+00:00)
+2020-07-17 14:49:30 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:32 UTC)" executed successfully
+2020-07-17 14:49:32 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:34 UTC)" (scheduled at 2020-07-17 14:49:32.321824+00:00)
+2020-07-17 14:49:32 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:34 UTC)" executed successfully
+2020-07-17 14:49:34 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:36 UTC)" (scheduled at 2020-07-17 14:49:34.321824+00:00)
+2020-07-17 14:49:34 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:36 UTC)" executed successfully
+2020-07-17 14:49:35 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:40 UTC)" (scheduled at 2020-07-17 14:49:35+00:00)
+2020-07-17 14:49:35 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:40 UTC)" executed successfully
+2020-07-17 14:49:36 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:38 UTC)" (scheduled at 2020-07-17 14:49:36.321824+00:00)
+2020-07-17 14:49:36 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:38 UTC)" executed successfully
+2020-07-17 14:49:38 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:40 UTC)" (scheduled at 2020-07-17 14:49:38.321824+00:00)
+2020-07-17 14:49:38 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:40 UTC)" executed successfully
+2020-07-17 14:49:40 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:45 UTC)" (scheduled at 2020-07-17 14:49:40+00:00)
+2020-07-17 14:49:40 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:45 UTC)" executed successfully
+2020-07-17 14:49:40 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:42 UTC)" (scheduled at 2020-07-17 14:49:40.321824+00:00)
+2020-07-17 14:49:40 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:42 UTC)" executed successfully
+2020-07-17 14:49:42 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:44 UTC)" (scheduled at 2020-07-17 14:49:42.321824+00:00)
+2020-07-17 14:49:42 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:44 UTC)" executed successfully
+2020-07-17 14:49:44 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:46 UTC)" (scheduled at 2020-07-17 14:49:44.321824+00:00)
+2020-07-17 14:49:44 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:46 UTC)" executed successfully
+2020-07-17 14:49:45 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:50 UTC)" (scheduled at 2020-07-17 14:49:45+00:00)
+2020-07-17 14:49:45 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:50 UTC)" executed successfully
+2020-07-17 14:49:46 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:48 UTC)" (scheduled at 2020-07-17 14:49:46.321824+00:00)
+2020-07-17 14:49:46 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:48 UTC)" executed successfully
+2020-07-17 14:49:48 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:50 UTC)" (scheduled at 2020-07-17 14:49:48.321824+00:00)
+2020-07-17 14:49:48 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:50 UTC)" executed successfully
+2020-07-17 14:49:50 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:55 UTC)" (scheduled at 2020-07-17 14:49:50+00:00)
+2020-07-17 14:49:50 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:49:55 UTC)" executed successfully
+2020-07-17 14:49:50 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:52 UTC)" (scheduled at 2020-07-17 14:49:50.321824+00:00)
+2020-07-17 14:49:50 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:52 UTC)" executed successfully
+2020-07-17 14:49:52 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:54 UTC)" (scheduled at 2020-07-17 14:49:52.321824+00:00)
+2020-07-17 14:49:52 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:54 UTC)" executed successfully
+2020-07-17 14:49:54 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:56 UTC)" (scheduled at 2020-07-17 14:49:54.321824+00:00)
+2020-07-17 14:49:54 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:56 UTC)" executed successfully
+2020-07-17 14:49:55 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:00 UTC)" (scheduled at 2020-07-17 14:49:55+00:00)
+2020-07-17 14:49:55 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:00 UTC)" executed successfully
+2020-07-17 14:49:56 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:58 UTC)" (scheduled at 2020-07-17 14:49:56.321824+00:00)
+2020-07-17 14:49:56 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:49:58 UTC)" executed successfully
+2020-07-17 14:49:58 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:00 UTC)" (scheduled at 2020-07-17 14:49:58.321824+00:00)
+2020-07-17 14:49:58 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:00 UTC)" executed successfully
+2020-07-17 14:50:00 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:05 UTC)" (scheduled at 2020-07-17 14:50:00+00:00)
+2020-07-17 14:50:00 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:05 UTC)" executed successfully
+2020-07-17 14:50:00 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:02 UTC)" (scheduled at 2020-07-17 14:50:00.321824+00:00)
+2020-07-17 14:50:00 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:02 UTC)" executed successfully
+2020-07-17 14:50:02 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:04 UTC)" (scheduled at 2020-07-17 14:50:02.321824+00:00)
+2020-07-17 14:50:02 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:04 UTC)" executed successfully
+2020-07-17 14:50:04 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:06 UTC)" (scheduled at 2020-07-17 14:50:04.321824+00:00)
+2020-07-17 14:50:04 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:06 UTC)" executed successfully
+2020-07-17 14:50:05 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:10 UTC)" (scheduled at 2020-07-17 14:50:05+00:00)
+2020-07-17 14:50:05 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:10 UTC)" executed successfully
+2020-07-17 14:50:06 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:08 UTC)" (scheduled at 2020-07-17 14:50:06.321824+00:00)
+2020-07-17 14:50:06 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:08 UTC)" executed successfully
+2020-07-17 14:50:08 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:10 UTC)" (scheduled at 2020-07-17 14:50:08.321824+00:00)
+2020-07-17 14:50:08 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:10 UTC)" executed successfully
+2020-07-17 14:50:10 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:15 UTC)" (scheduled at 2020-07-17 14:50:10+00:00)
+2020-07-17 14:50:10 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:15 UTC)" executed successfully
+2020-07-17 14:50:10 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:12 UTC)" (scheduled at 2020-07-17 14:50:10.321824+00:00)
+2020-07-17 14:50:10 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:12 UTC)" executed successfully
+2020-07-17 14:50:12 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:14 UTC)" (scheduled at 2020-07-17 14:50:12.321824+00:00)
+2020-07-17 14:50:12 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:14 UTC)" executed successfully
+2020-07-17 14:50:14 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:16 UTC)" (scheduled at 2020-07-17 14:50:14.321824+00:00)
+2020-07-17 14:50:14 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:16 UTC)" executed successfully
+2020-07-17 14:50:15 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:20 UTC)" (scheduled at 2020-07-17 14:50:15+00:00)
+2020-07-17 14:50:15 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:20 UTC)" executed successfully
+2020-07-17 14:50:16 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:18 UTC)" (scheduled at 2020-07-17 14:50:16.321824+00:00)
+2020-07-17 14:50:16 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:18 UTC)" executed successfully
+2020-07-17 14:50:18 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:20 UTC)" (scheduled at 2020-07-17 14:50:18.321824+00:00)
+2020-07-17 14:50:18 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:20 UTC)" executed successfully
+2020-07-17 14:50:20 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:25 UTC)" (scheduled at 2020-07-17 14:50:20+00:00)
+2020-07-17 14:50:20 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:25 UTC)" executed successfully
+2020-07-17 14:50:20 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:22 UTC)" (scheduled at 2020-07-17 14:50:20.321824+00:00)
+2020-07-17 14:50:20 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:22 UTC)" executed successfully
+2020-07-17 14:50:22 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:24 UTC)" (scheduled at 2020-07-17 14:50:22.321824+00:00)
+2020-07-17 14:50:22 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:24 UTC)" executed successfully
+2020-07-17 14:50:24 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:26 UTC)" (scheduled at 2020-07-17 14:50:24.321824+00:00)
+2020-07-17 14:50:24 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:26 UTC)" executed successfully
+2020-07-17 14:50:25 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:30 UTC)" (scheduled at 2020-07-17 14:50:25+00:00)
+2020-07-17 14:50:25 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:30 UTC)" executed successfully
+2020-07-17 14:50:26 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:28 UTC)" (scheduled at 2020-07-17 14:50:26.321824+00:00)
+2020-07-17 14:50:26 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:28 UTC)" executed successfully
+2020-07-17 14:50:28 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:30 UTC)" (scheduled at 2020-07-17 14:50:28.321824+00:00)
+2020-07-17 14:50:28 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:30 UTC)" executed successfully
+2020-07-17 14:50:30 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:35 UTC)" (scheduled at 2020-07-17 14:50:30+00:00)
+2020-07-17 14:50:30 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:35 UTC)" executed successfully
+2020-07-17 14:50:30 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:32 UTC)" (scheduled at 2020-07-17 14:50:30.321824+00:00)
+2020-07-17 14:50:30 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:32 UTC)" executed successfully
+2020-07-17 14:50:32 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:34 UTC)" (scheduled at 2020-07-17 14:50:32.321824+00:00)
+2020-07-17 14:50:32 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:34 UTC)" executed successfully
+2020-07-17 14:50:34 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:36 UTC)" (scheduled at 2020-07-17 14:50:34.321824+00:00)
+2020-07-17 14:50:34 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:36 UTC)" executed successfully
+2020-07-17 14:50:35 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:40 UTC)" (scheduled at 2020-07-17 14:50:35+00:00)
+2020-07-17 14:50:35 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:40 UTC)" executed successfully
+2020-07-17 14:50:36 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:38 UTC)" (scheduled at 2020-07-17 14:50:36.321824+00:00)
+2020-07-17 14:50:36 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:38 UTC)" executed successfully
+2020-07-17 14:50:38 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:40 UTC)" (scheduled at 2020-07-17 14:50:38.321824+00:00)
+2020-07-17 14:50:38 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:40 UTC)" executed successfully
+2020-07-17 14:50:40 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:45 UTC)" (scheduled at 2020-07-17 14:50:40+00:00)
+2020-07-17 14:50:40 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:45 UTC)" executed successfully
+2020-07-17 14:50:40 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:42 UTC)" (scheduled at 2020-07-17 14:50:40.321824+00:00)
+2020-07-17 14:50:40 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:42 UTC)" executed successfully
+2020-07-17 14:50:42 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:44 UTC)" (scheduled at 2020-07-17 14:50:42.321824+00:00)
+2020-07-17 14:50:42 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:44 UTC)" executed successfully
+2020-07-17 14:50:44 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:46 UTC)" (scheduled at 2020-07-17 14:50:44.321824+00:00)
+2020-07-17 14:50:44 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:46 UTC)" executed successfully
+2020-07-17 14:50:45 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:50 UTC)" (scheduled at 2020-07-17 14:50:45+00:00)
+2020-07-17 14:50:45 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:50 UTC)" executed successfully
+2020-07-17 14:50:46 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:48 UTC)" (scheduled at 2020-07-17 14:50:46.321824+00:00)
+2020-07-17 14:50:46 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:48 UTC)" executed successfully
+2020-07-17 14:50:48 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:50 UTC)" (scheduled at 2020-07-17 14:50:48.321824+00:00)
+2020-07-17 14:50:48 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:50 UTC)" executed successfully
+2020-07-17 14:50:50 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:55 UTC)" (scheduled at 2020-07-17 14:50:50+00:00)
+2020-07-17 14:50:50 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:50:55 UTC)" executed successfully
+2020-07-17 14:50:50 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:52 UTC)" (scheduled at 2020-07-17 14:50:50.321824+00:00)
+2020-07-17 14:50:50 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:52 UTC)" executed successfully
+2020-07-17 14:50:52 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:54 UTC)" (scheduled at 2020-07-17 14:50:52.321824+00:00)
+2020-07-17 14:50:52 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:54 UTC)" executed successfully
+2020-07-17 14:50:54 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:56 UTC)" (scheduled at 2020-07-17 14:50:54.321824+00:00)
+2020-07-17 14:50:54 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:56 UTC)" executed successfully
+2020-07-17 14:50:55 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:51:00 UTC)" (scheduled at 2020-07-17 14:50:55+00:00)
+2020-07-17 14:50:55 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:51:00 UTC)" executed successfully
+2020-07-17 14:50:56 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:58 UTC)" (scheduled at 2020-07-17 14:50:56.321824+00:00)
+2020-07-17 14:50:56 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:50:58 UTC)" executed successfully
+2020-07-17 14:50:58 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:51:00 UTC)" (scheduled at 2020-07-17 14:50:58.321824+00:00)
+2020-07-17 14:50:58 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:51:00 UTC)" executed successfully
+2020-07-17 14:51:00 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:51:05 UTC)" (scheduled at 2020-07-17 14:51:00+00:00)
+2020-07-17 14:51:00 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:51:05 UTC)" executed successfully
+2020-07-17 14:51:00 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:51:02 UTC)" (scheduled at 2020-07-17 14:51:00.321824+00:00)
+2020-07-17 14:51:00 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:51:02 UTC)" executed successfully
+2020-07-17 14:51:02 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:51:04 UTC)" (scheduled at 2020-07-17 14:51:02.321824+00:00)
+2020-07-17 14:51:02 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:51:04 UTC)" executed successfully
+2020-07-17 14:52:44 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:52:44 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:52:44 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:52:45 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:52:47 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:54:11 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:54:11 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:54:11 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:54:14 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:54:17 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:55:57 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:55:57 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:55:57 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:55:57 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-17 14:55:59 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:55:59 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:55:59 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-17 14:55:59 base.py[line:881]INFO Added job "err_job" to job store "default"
+2020-07-17 14:55:59 base.py[line:166]INFO Scheduler started
+2020-07-17 14:55:59 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:55:59 UTC)" (scheduled at 2020-07-17 14:55:59.344524+00:00)
+2020-07-17 14:55:59 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:01 UTC)" executed successfully
+2020-07-17 14:56:00 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:05 UTC)" (scheduled at 2020-07-17 14:56:00+00:00)
+2020-07-17 14:56:00 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:05 UTC)" executed successfully
+2020-07-17 14:56:01 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:03 UTC)" (scheduled at 2020-07-17 14:56:01.344524+00:00)
+2020-07-17 14:56:01 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:03 UTC)" executed successfully
+2020-07-17 14:56:03 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:05 UTC)" (scheduled at 2020-07-17 14:56:03.344524+00:00)
+2020-07-17 14:56:03 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:05 UTC)" executed successfully
+2020-07-17 14:56:05 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:10 UTC)" (scheduled at 2020-07-17 14:56:05+00:00)
+2020-07-17 14:56:05 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:10 UTC)" executed successfully
+2020-07-17 14:56:05 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:07 UTC)" (scheduled at 2020-07-17 14:56:05.344524+00:00)
+2020-07-17 14:56:05 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:07 UTC)" executed successfully
+2020-07-17 14:56:07 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:09 UTC)" (scheduled at 2020-07-17 14:56:07.344524+00:00)
+2020-07-17 14:56:07 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:09 UTC)" executed successfully
+2020-07-17 14:56:09 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:11 UTC)" (scheduled at 2020-07-17 14:56:09.344524+00:00)
+2020-07-17 14:56:09 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:11 UTC)" executed successfully
+2020-07-17 14:56:10 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:15 UTC)" (scheduled at 2020-07-17 14:56:10+00:00)
+2020-07-17 14:56:10 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:15 UTC)" executed successfully
+2020-07-17 14:56:11 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:13 UTC)" (scheduled at 2020-07-17 14:56:11.344524+00:00)
+2020-07-17 14:56:11 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:13 UTC)" executed successfully
+2020-07-17 14:56:12 base.py[line:123]INFO Running job "err_job (trigger: date[2020-07-17 14:55:57 UTC], next run at: 2020-07-17 14:56:12 UTC)" (scheduled at 2020-07-17 14:56:12.759300+00:00)
+2020-07-17 14:56:12 base.py[line:131]ERROR Job "err_job (trigger: date[2020-07-17 14:55:57 UTC], next run at: 2020-07-17 14:56:12 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-20-4b74fabf4ee6>", line 7, in err_job
+    print(1/0) # 除零错误
+ZeroDivisionError: division by zero
+2020-07-17 14:56:12 base.py[line:627]INFO Removed job error_task
+2020-07-17 14:56:13 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:15 UTC)" (scheduled at 2020-07-17 14:56:13.344524+00:00)
+2020-07-17 14:56:13 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-17 14:56:15 UTC)" executed successfully
+2020-07-17 14:56:15 base.py[line:123]INFO Running job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:20 UTC)" (scheduled at 2020-07-17 14:56:15+00:00)
+2020-07-17 14:56:15 base.py[line:144]INFO Job "my_job (trigger: cron[month='1-12', hour='0-23', second='*/5'], next run at: 2020-07-17 14:56:20 UTC)" executed successfully
+2020-07-28 08:02:17 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-28 08:02:17 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-28 08:02:17 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-28 08:02:19 base.py[line:440]INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-28 08:02:24 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-28 08:02:24 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-28 08:02:24 base.py[line:881]INFO Added job "my_job" to job store "default"
+2020-07-28 08:02:24 base.py[line:881]INFO Added job "err_job" to job store "default"
+2020-07-28 08:02:24 base.py[line:166]INFO Scheduler started
+2020-07-28 08:02:24 base.py[line:120]WARNING Run time of job "my_job (trigger: date[2020-07-20 20:00:00 UTC], next run at: 2020-07-20 20:00:00 UTC)" was missed by 7 days, 12:02:24.822799
+2020-07-28 08:02:24 base.py[line:627]INFO Removed job job_date_once
+2020-07-28 08:02:25 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:27 UTC)" (scheduled at 2020-07-28 08:02:25.912032+00:00)
+2020-07-28 08:02:25 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:27 UTC)" executed successfully
+2020-07-28 08:02:27 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:29 UTC)" (scheduled at 2020-07-28 08:02:27.912032+00:00)
+2020-07-28 08:02:27 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:29 UTC)" executed successfully
+2020-07-28 08:02:29 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:31 UTC)" (scheduled at 2020-07-28 08:02:29.912032+00:00)
+2020-07-28 08:02:29 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:31 UTC)" executed successfully
+2020-07-28 08:02:31 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:33 UTC)" (scheduled at 2020-07-28 08:02:31.912032+00:00)
+2020-07-28 08:02:31 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:33 UTC)" executed successfully
+2020-07-28 08:02:33 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:35 UTC)" (scheduled at 2020-07-28 08:02:33.912032+00:00)
+2020-07-28 08:02:33 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:35 UTC)" executed successfully
+2020-07-28 08:02:34 base.py[line:123]INFO Running job "err_job (trigger: date[2020-07-28 08:02:19 UTC], next run at: 2020-07-28 08:02:34 UTC)" (scheduled at 2020-07-28 08:02:34.771964+00:00)
+2020-07-28 08:02:34 base.py[line:131]ERROR Job "err_job (trigger: date[2020-07-28 08:02:19 UTC], next run at: 2020-07-28 08:02:34 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-17-4b74fabf4ee6>", line 7, in err_job
+    print(1/0) # 除零错误
+ZeroDivisionError: division by zero
+2020-07-28 08:02:34 base.py[line:627]INFO Removed job error_task
+2020-07-28 08:02:35 base.py[line:123]INFO Running job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:37 UTC)" (scheduled at 2020-07-28 08:02:35.912032+00:00)
+2020-07-28 08:02:35 base.py[line:144]INFO Job "my_job (trigger: interval[0:00:02], next run at: 2020-07-28 08:02:37 UTC)" executed successfully

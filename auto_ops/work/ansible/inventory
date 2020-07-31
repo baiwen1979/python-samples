@@ -1,0 +1,4 @@
+[servers]
+node-ubuntu  ansible_ssh_host=node-ubuntu  ansible_ssh_port=22
+node-debian  ansible_ssh_host=node-debian  ansible_ssh_port=22
+node-centos  ansible_ssh_host=node-centos  ansible_ssh_port=22

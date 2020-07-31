@@ -1,0 +1,71 @@
+---
+
+- name: "安装 psutil 模块"
+  hosts: servers
+  connection: paramiko
+  
+  vars:
+    
+    # 所需的pip包
+    pip_packages:
+      - psutil
+      
+    # pip安装脚本的下载地址(下载太慢，暂时不用)
+    get_pip_url: https://bootstrap.pypa.io/get-pip.py
+      
+  tasks:
+    - name: 安装pip包管理器
+      block:
+        - name: 分发get-pip.py安装脚本
+          copy: 
+            src: ./get-pip.py
+            dest: /tmp/
+            mode: 0644
+              
+        - name: 运行get-pip.py安装脚本
+          command: python /tmp/get-pip.py
+          
+    - name: 安装gcc和python-dev
+      block:
+        - name: 更新apt镜像源
+          block:
+            - name: 复制sources.list到debian和ubuntu
+              copy:
+                src: /etc/apt/sources.list
+                dest: /etc/apt/sources.list
+                mode: 0644
+                owner: docker
+                group: docker
+             
+            - name: 更新apt源
+              command: apt update
+              
+            - name: apt安装gcc和python-dev
+              command: apt install gcc python-dev -y --allow-unauthenticated
+          when:
+            - ansible_pkg_mgr == "apt"
+              
+        - name: 更新yum镜像源
+          block:
+            - name: 复制CentOS-Base.repo到centos
+              copy:
+                src: ./CentOS-Base.repo
+                dest: /etc/yum.repos.d/CentOS-Base.repo
+                mode: 644
+                owner: docker
+                group: docker
+                
+            - name: 更新yum源
+              command: yum update
+              
+            - name: yum安装gcc和python-dev
+              command: yum install gcc python-devel -y
+          when:
+            - ansible_pkg_mgr == "yum"
+        
+    - name: 安装所需的pip包psutil
+      pip:
+        name: "{{ pip_packages }}"
+        extra_args: -i https://mirrors.aliyun.com/pypi/simple/
+        state: present
+  

@@ -1,0 +1,42 @@
+version: "2.2"
+
+services:
+  
+  node-jupyter:
+    image: jupyter/minimal-notebook
+    container_name: node-jupyter
+    hostname: node-jupyter
+    user: root
+    environment:
+      - NB_USER=admin
+      - GRANT_SUDO=yes
+      - JUPYTER_ENABLE_LAB=yes
+      - CHOWN_HOME=yes
+    working_dir: /home/admin  
+    ports:
+      - 8888:8888/tcp
+    volumes: 
+      - ./work:/home/admin
+      - ./conf/apt/sources.list:/etc/apt/sources.list
+
+  node-ubuntu:
+    image: chusiang/ansible-managed-node:ubuntu-16.04
+    container_name: node-ubuntu
+    hostname: node-ubuntu
+    ports:
+      - 2221:22/tcp
+  
+  node-debian:
+    image: chusiang/ansible-managed-node:debian-8
+    container_name: node-debian
+    hostname: node-debian
+    ports:
+      - 2222:22/tcp
+    
+  node-centos:
+    image: chusiang/ansible-managed-node:centos-7
+    container_name: node-centos
+    hostname: node-centos
+    ports:
+      - 2223:22/tcp
+
