@@ -1,7 +1,5 @@
 # Python Samples
 
-
-
 Python 示例代码，包含了Python语言基础、自动化运维、大数据分析、机器学习、深度学习、Hadoop和网络爬虫等示例代码。
 
 ## 目录结构
