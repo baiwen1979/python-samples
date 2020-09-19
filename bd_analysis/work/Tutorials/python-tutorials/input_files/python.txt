@@ -1,0 +1,4 @@
+Python is fun!
+Programming is fun!
+Data Analysis is fun!
+Machine Learning is fun!
